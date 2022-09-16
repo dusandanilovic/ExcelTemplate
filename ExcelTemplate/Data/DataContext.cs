@@ -29,12 +29,12 @@ namespace ExcelTemplate.Data
                 //command.Parameters = parameters;
                 var reader = command.ExecuteReader();
 
-                DataSet ds = new DataSet();
+                //DataSet ds = new DataSet();
 
                 while (!reader.IsClosed)
-                    ds.Tables.Add().Load(reader);
+                    result.Tables.Add().Load(reader);
 
-                return ds;
+                //return result;
 
             }
             catch (Exception e)

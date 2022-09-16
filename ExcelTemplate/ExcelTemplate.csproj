@@ -7,10 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GrapeCity.Documents.Excel" Version="5.2.1" />
     <PackageReference Include="MathNet.Numerics.Data.Matlab" Version="5.0.0" />
     <PackageReference Include="MATLAB" Version="2.0.2" />
     <PackageReference Include="MySql.Data" Version="8.0.30" />
+    <PackageReference Include="NuGet.CommandLine" Version="6.2.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="20.2.0.49" />
+    <PackageReference Include="TMS.FlexCel" Version="7.15.0-trial" />
     <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="20.2.0.49" />
   </ItemGroup>
 
